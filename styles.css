@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i");
+@import url("https://fonts.googleapis.com/css?family=Saira+Condensed:300");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css");
+body {
+  background-color: #FFB6C1;
+  color: #cfcfcf;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto auto; }
+  body div#initialize {
+    text-align: center; }
+    body div#initialize div#initialize-poly svg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto auto; }
+    body div#initialize div#initialize-text input {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto auto;
+      height: 30px;
+      width: 100px;
+      opacity: 0;
+      text-align: center;
+      background-color: transparent;
+      color: #d4af37;
+      border-width: 0;
+      font-family: "Saira Condensed", sans-serif;
+      font-size: 20px; }
+  body .tooltip {
+    position: relative;
+    display: inline-block; }
+  body .tooltip .tooltiptext {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    line-height: 135%;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 1s; }
+  body .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent; }
+  body .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1; }
+
+div.card-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto auto;
+  opacity: 0;
+  width: 485.41px;
+  height: 300px;
+  border-width: 0;
+  border-radius: 20px;
+  box-shadow: 0 0 100px 1px rgba(0, 0, 0, 0.5);
+  background-color: #0072BB;
+  text-align: center; }
+  div.card-container div.name {
+    margin: 90px 0 10px 0;
+    text-align: center;
+    font-size: 25px; }
+  div.card-container div.description {
+    margin: 0 0 60px 0;
+    color: #d4af37;
+    font-size: 12px;
+    font-family: "Saira Condensed", sans-serif;
+    text-align: center; }
+  div.card-container div#icon-container {
+    background-color: #3B444B;
+    padding: 28px;
+    border-radius: 0 0 20px 20px; }
+    div.card-container div#icon-container a.fa {
+      padding: 10px;
+      margin: 0 10px;
+      width: 16px;
+      background-color: #d4af37;
+      border-radius: 50%;
+      color: #0072BB;
+      text-decoration: none;
+      transition: all .3s ease-in-out; }
+    div.card-container div#icon-container a.fa:hover {
+      background-color: #0072BB;
+      color: #ffffff; }
+
+/*# sourceMappingURL=styles.css.map */
