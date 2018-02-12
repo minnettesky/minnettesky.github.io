@@ -1,11 +1,12 @@
-$font-color : #FFB6C1;
+// to run, run this in the terminal of the directory: sass styles.scss styles.css
+$bg-color : #FAEBD7; // background color
 $load-font: 'Saira Condensed', sans-serif;
 $body-font: 'Roboto', sans-serif;
 $load-font-size: 20px;
 $desc-font-size: 12px;
-$card-bg-color:#0072BB;
-$icon-bg-color: #d4af37;
-$bottom-bg-color: #3B444B;
+$card-bg-color:#0072BB; // card color
+$icon-bg-color: #d4af37; // icons for social media
+$bottom-bg-color: #3B444B; // bottom divisin color
 @mixin positioning() {
     position: absolute;
     top: 0;
@@ -16,7 +17,7 @@ $bottom-bg-color: #3B444B;
 }
 
 body {
-    background-color: $font-color;
+    background-color: $bg-color;
     color: #cfcfcf;
     font-family: $body-font;
     @include positioning();
