@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Saira+Condensed:300");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css");
 body {
-  background-color: #F0FFFF;
+  background-color: #ACE5EE;
   color: #cfcfcf;
   font-family: "Roboto", sans-serif;
   position: absolute;
@@ -41,7 +41,7 @@ body {
     display: inline-block; }
   body .tooltip .tooltiptext {
     font-family: "Roboto", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     visibility: hidden;
     width: 100px;
     background-color: #555;
@@ -83,7 +83,7 @@ div.card-container {
   border-width: 0;
   border-radius: 20px;
   box-shadow: 0 0 100px 1px rgba(0, 0, 0, 0.5);
-  background-color: #0072BB;
+  background-color: #C32148;
   text-align: center; }
   div.card-container div.name {
     margin: 90px 0 10px 0;
@@ -92,7 +92,7 @@ div.card-container {
   div.card-container div.description {
     margin: 0 0 60px 0;
     color: #d4af37;
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Saira Condensed", sans-serif;
     text-align: center; }
   div.card-container div#icon-container {
@@ -105,11 +105,11 @@ div.card-container {
       width: 16px;
       background-color: #d4af37;
       border-radius: 50%;
-      color: #0072BB;
+      color: #C32148;
       text-decoration: none;
       transition: all .3s ease-in-out; }
     div.card-container div#icon-container a.fa:hover {
-      background-color: #0072BB;
+      background-color: #C32148;
       color: #ffffff; }
 
 /*# sourceMappingURL=styles.css.map */
